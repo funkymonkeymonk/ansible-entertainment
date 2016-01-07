@@ -5,3 +5,4 @@
   with_items:
     - spotify
     - steam
+  when: ansible_os_family == "Darwin"
